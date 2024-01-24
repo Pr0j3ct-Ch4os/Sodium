@@ -71,7 +71,7 @@ self.__uv$config = {
      * @returns {string} - The script to inject.
      */
     inject: async (url) => {
-        if (url.host === 'discord.com') {
+        if (url.host === 'vercel.app') {
             return `
                 <script src="https://raw.githubusercontent.com/Vencord/builds/main/browser.js"></script>
                 <link rel="stylesheet" href="https://raw.githubusercontent.com/Vencord/builds/main/browser.css">
